@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "copperpistons:block/copper_piston_bottom",
+    "side": "copperpistons:block/copper_piston_side",
+    "top": "copperpistons:block/copper_piston_top_honey"
+  }
+}

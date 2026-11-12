@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "P": "copperpistons:copper_piston",
+    "H": "minecraft:honey_bottle"
+  },
+  "pattern": [
+    "H",
+    "P"
+  ],
+  "result": {
+    "id": "copperpistons:honey_copper_piston"
+  }
+}

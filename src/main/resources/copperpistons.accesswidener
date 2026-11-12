@@ -1,0 +1,13 @@
+accessWidener v1 official
+
+accessible field net/minecraft/world/level/block/piston/PistonBaseBlock isSticky Z
+accessible method net/minecraft/world/level/block/piston/PistonBaseBlock getNeighborSignal (Lnet/minecraft/world/level/SignalGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z
+extendable method net/minecraft/world/level/block/piston/PistonBaseBlock getNeighborSignal (Lnet/minecraft/world/level/SignalGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z
+
+accessible method net/minecraft/world/level/block/piston/PistonBaseBlock moveBlocks (Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z
+extendable method net/minecraft/world/level/block/piston/PistonBaseBlock moveBlocks (Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z
+
+accessible method net/minecraft/world/level/block/piston/PistonHeadBlock isFittingBase (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)Z
+extendable method net/minecraft/world/level/block/piston/PistonHeadBlock isFittingBase (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)Z
+
+accessible method net/minecraft/client/renderer/blockentity/PistonHeadRenderer createMovingBlock (Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Holder;Lnet/minecraft/client/multiplayer/ClientLevel;)Lnet/minecraft/client/renderer/block/MovingBlockRenderState;

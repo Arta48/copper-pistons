@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "${author}"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/copper-pistons",
+    "sources": "https://github.com/Arta48/copper-pistons"
+  },
+  "license": "MIT",
+  "icon": "assets/copperpistons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.arta.copperpistons.CopperPistonsMod"
+    ],
+    "client": [
+      "com.arta.copperpistons.CopperPistonsClientMod"
+    ]
+  },
+  "accessWidener": "copperpistons.accesswidener",
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=${minecraft}",
+    "java": ">=${java}",
+    "fabric-api": "*"
+  }
+}

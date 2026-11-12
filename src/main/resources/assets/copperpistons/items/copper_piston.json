@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "copperpistons:block/copper_piston_inventory"
+  }
+}
